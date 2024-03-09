@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+/* ================= Navbar Start =================== */
+.nav {
+    padding: 16px 0;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+}
+.nav .navWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .navWrapper ul li{
+    display: inline-block;
+    margin: 30px;
+}
+.nav .navWrapper ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    transition: .4s;
+}
+.nav .navWrapper ul li a:hover {
+    color: #EA580C;
+}
+.nav .navWrapper .navbtn{
+    background-color: #EA580C;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 33px;
+}
+.navicon{
+    margin-right: 11px;
+}
+/* ================= Navbar End =================== */
+
+/* ================= Bannar Start =================== */
+#bannar {
+    background: rgba(234, 88, 12, .2);
+}
+#bannar .bannarWrapper{
+    display: flex;
+    padding-top: 37px;
+    padding-bottom: 39px;
+}
+#bannar .bannar_icon{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: rgba(234, 88, 12, .2);
+    text-align: center;
+    line-height: 26px;
+}
+#bannar .bannartext_icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #EA580C;
+    width: 167px;
+    border-radius: 33px;
+}
+#bannar .bannartext_area{
+    padding-top: 80px;
+}
+.bannartext_area h1{
+    font-size: 36px;
+    font-weight: 500;
+    width: 567px;
+    color: #09090B;
+    margin-top: 16px;
+    line-height: 45px;
+}
+.bannartext_area p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 576px;
+    color: #71717A;
+    margin-top: 16px;
+    line-height: 28px;
+}
+.bannartext_area button{
+    background-color: #EA580C;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+    display: inline-block;
+}
+.bannaritembox{
+    padding-bottom: 164px;
+}
+.bannaritem{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    background: rgba(234, 88, 12, 5.1%);
+    width: 350px;
+    padding: 25px;
+    border: 1px solid #EA580C;
+    border-radius: 8px;
+}
+.bannaritem .gearicon{
+    font-size: 40px;
+}
+.bannaritemWrapper{
+    position: relative;
+}
+.bannaritemWrapper::after{
+    content: '';
+    width: 1px;
+    height: 88px;
+    background-color: #EA580C;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -16px;
+}
+.bannaritem h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #09090B;
+    width: 243px;
+}
+.bannaritem p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #71717A;
+    width: 296px;
+    margin-top: 5px;
+}
+.bannaritembox{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ================= Bannar End =================== */
+/* ================= Sponsor Start =================== */
+#sponsor{
+    padding-top: 80px;
+    padding-bottom: 71px;
+    background: #FFFFFF;
+
+}
+#sponsor .sponsorWrapper h4{
+    text-align: center;
+    font-size: 16px;
+    color: #09090B;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsorWrapper .sponsoritem{
+    display: flex;
+    justify-content: space-between;
+}
+/* ================= Sponsor End =================== */
+/* ================= Contact Start =================== */
+#contact{
+    background: #F7F7F7;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+#contact .contactWrapper .textbox h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #09090B;
+    line-height: 40px;
+    width: 483px;
+    margin-bottom: 13px;
+}
+#contact .contactWrapper .textbox p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #52525B;
+    line-height: 24px;
+    width: 652px;
+}
+#contact .contactWrapper .textbox button{
+    font-size: 24px;
+    color: #EA580C;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(234, 88, 12, .2);
+    margin-top: 14px;
+}
+#contact .contactWrapper .textbox{
+    display: inline-block;
+}
+#contact .contactWrapper .formbox h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #09090B;
+    /* width: 382px; */
+    line-height: 32px;
+}
+#contact .contactWrapper .formbox p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #71717A;
+    width: 528px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+#contact .contactWrapper .formbox{
+    display: inline-block;
+    padding: 29px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.formbox input{
+    height: 48px;
+    width: 548px;
+    border-radius: 6px;
+    padding-left: 28px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.formbox .sendbtn input{
+    height: 44px;
+    width: 90px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    background: #000000;
+    text-align: center;
+}
+#contact .contactWrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+/* ================= Contact end =================== */
+
+/* ================= Service Start =================== */
+#service{
+    color: #F7F7F7;
+    padding: 80px;
+}
+#service .serviceWrapper .serviceWrapper_text{
+    text-align: center;
+}
+.serviceWrapper_text h4{
+    font-size: 12px;
+    color: #09090B;
+    font-weight: 500;
+    border: 1px solid #09090B;
+    height: 25px;
+    width: 123px;
+    border-radius: 6px;
+    display: inline-block;
+    padding-top: 8px;
+}
+.serviceWrapper_text h2{
+    font-size: 36px;
+    color: #09090B;
+    font-weight: 700;
+    margin-top: 48px; 
+}
+.serviceWrapper_item .serviceitem .serviceicon{
+    font-size: 48px;
+    margin-bottom: 24px;
+    color: #09090B;
+}
+.serviceWrapper_item .serviceitem h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #09090B;
+    line-height: 32px;
+}
+.serviceWrapper_item .serviceitem p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #09090B;
+    width: 383px;
+    line-height: 24px;
+    margin-top: 24px;
+}
+.serviceWrapper_item .serviceitem h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #09090B;
+    /* line-height: 32px; */
+    margin-top: 24px;
+}
+.serviceWrapper_item .serviceitem{
+    background: #E5E4E2;
+    height: 284px;
+    width: 380px;
+    text-align: center;
+    padding: 26px;
+    border-radius: 6px;
+    margin-top: 47px;
+}
+.serviceWrapper .serviceWrapper_item{
+    display: flex;
+    justify-content: space-between;
+}
+/* ================= Service end =================== */
+/* ================= Profit Start =================== */
+#profit{
+    background: #F4F4F5;
+    padding: 47px 0;
+}
+#profit .profitWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.profitWrapper .profitWrapper_text{
+    height: 370px;
+    width: 603px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 19px 24px;
+}
+#profit .profitWrapper .profitWrapper_text h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #09090B;
+    line-height: 36px;
+    width: 543px;
+}
+#profit .profitWrapper .profitWrapper_text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #27272A;
+    line-height: 24px;
+    width: 547px;
+    margin-top: 42px;
+}
+.profititem_box{
+    display: flex;
+    gap: 15px;
+}
+.profititem_box .profititem h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #09090B;
+    line-height: 60px;
+    width: 143px;
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+.profititem_box .profititem h5{
+    font-size: 19px;
+    font-weight: 500;
+    color: #71717A;
+    line-height: 30px;
+    width: 143px;
+}
+
+/* ================= Profit end =================== */
+/* ================= Faq Start =================== */
+#faq{
+    background: #FFFFFF;
+    padding: 80px;
+}
+#faq .faqWrapper .faqWrapper_text{
+    text-align: center;
+}
+.faqWrapper_text h4{
+    font-size: 12px;
+    color: #09090B;
+    font-weight: 500;
+    border: 1px solid #09090B;
+    height: 25px;
+    width: 123px;
+    border-radius: 6px;
+    display: inline-block;
+    padding-top: 8px;
+}
+.faqWrapper_text h2{
+    font-size: 36px;
+    color: #09090B;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-bottom: 21px; 
+}
+.faqWrapper_item .faq_box .faq_boxitem{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+    border: 1px solid #71717A;
+    background: #D9D9D9;
+    border-radius: 10px;
+    height: 65px;
+    width: 600px;
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    padding-left: 26px;
+}
+#faq .faqWrapper .faqWrapper_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ================= Faq end =================== */
+/* ================= Testimonial Start =================== */
+#testimonial{
+    
+}
+#testimonial .testimonialWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 38px 0;
+    background: #f0efef;
+}
+.testimonialWrapper_item{
+    font-size: 58px;
+}
+#testimonial .testimonialWrapper .testimonialWrapper_text{
+    text-align: center;
+}
+.testimonialWrapper_text h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #09090B;
+    border: 1px solid #09090B;
+    border-radius: 6px;
+    height: 25px;
+    width: 162px;
+    padding-top: 8px;
+    display: inline-block;
+}
+.testimonialWrapper_text h2{
+    font-size: 36px;
+    font-weight: 700px;
+    color: #09090B;
+    margin: 0 auto;
+    width: 620px;
+    line-height: 60px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+
+}
+.testimonialWrapper_text .quoteicon{
+    font-size: 36px;
+    color: #7F7F87;
+}
+.testimonialWrapper_text p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #71717A;
+    line-height: 40px;
+    width: 839px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    
+}
+.testimonialWrapper_text img{
+    border-radius: 50%;
+    height: 74px;
+}
+.testimonialWrapper_text h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #09090B;
+}
+/* ================= Testimonial end =================== */
+/* ================= Blog Start =================== */
+#blog{
+    padding: 50px 0;
+    background-color: #FFFFFF;
+}
+#blog .blogWrapper .blogWrapper_text{
+    text-align: center;
+}
+.blogWrapper_text h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #09090B;
+    border: 1px solid #09090B;
+    border-radius: 6px;
+    height: 25px;
+    width: 120px;
+    display: inline-block;
+    padding-top: 8px;
+}
+.blogWrapper_text h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #09090B;
+    margin-top: 48px;
+}
+.blogWrapper_text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #71717A;
+    width: 885px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+.blogitem .blogitem_box p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #09090B;
+    line-height: 40px;
+    width: 393px;
+    text-align: center;
+    margin-top: 11px;
+}
+.blogitem{
+    display: flex;
+    justify-content: space-between;
+}
+/* ================= Blog end =================== */
+/* ================= Footer Start =================== */
+#footer{
+    padding: 60px 0;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+}
+#footer .footerWrapper .footerWrapper_text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #09090B;
+    line-height: 40px;
+    width: 529px;
+    margin-top: 11px;
+}
+#footer .footerWrapper .footerWrapper_text .placeholder__area{
+    font-size: 22px;
+    font-weight: 600;
+    color: #71717A;
+    width: 519px;
+    height: 55px;
+    background-color: #D8D8D8;
+    border-radius: 10px;
+    padding-left: 19px;
+    margin-top: 11px;
+}
+.placeholder__item{
+    position: relative;
+}
+#footer .arrowicon{
+    font-size: 22px;
+    font-weight: 600;
+    color: #71717A;
+    top: 50%;
+    left: 45%;
+    position: absolute;
+}
+#footer .footerWrapper .footerWrapper_text{
+    width: 40%;
+}
+.footerWrapper_item h5{
+    font-size: 22px;
+    font-weight: 700;
+    color: #09090B;
+}
+.footerWrapper_item ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #71717A;
+    text-decoration: none;
+    
+}
+.footerWrapper_item ul li{
+    list-style-type: none;
+}
+.footerWrapper_item{
+    width: 15%;
+}
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+/* ================= Footer end =================== */
